@@ -25,6 +25,10 @@ jobs:
             SCAN_DEVICE: iPhone 8
             SCAN_SCHEME: WebTests
 
+      - run:
+          name: notification Slack
+          command: fastlane run slack
+
       - store_test_results:
           path: output/scan
       - store_artifacts:
@@ -35,4 +39,5 @@ workflows:
   build-and-test:
     jobs:
       - build-and-test
+      - notification Slack
 
