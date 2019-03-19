@@ -40,8 +40,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: notificationTest
-          command: echo "notificationTest"
+          name: notification Slack
+          command: fastlane run slack
 
 workflows:
   version: 2
