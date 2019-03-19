@@ -1,14 +1,17 @@
 # .circleci/config.yml
 version: 2
 jobs:
-  hello-world:
+  notification-job:
+    macos:
+      xcode: "10.0.0"
+
     steps:
       - checkout
       - run:
-          command: echo 'Hello World !!'
+          command: fastlane SlackTest
 
 workflows:
   version: 2
-  hello-world:
+  notification-workflow:
     jobs:
-      - hello-world
+      - notification-job
