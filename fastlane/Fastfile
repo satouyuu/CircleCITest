@@ -22,9 +22,9 @@ platform :ios do
   end
 
   desc "Description of what the lane does"
-  lane :slackTest do
+  lane :SlackTest do
     slack(
-       message: 'slack Test !!'
+       message: 'Slack Test !!'
    )
   end
 end

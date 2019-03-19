@@ -41,7 +41,7 @@ jobs:
       - checkout
       - run:
           name: notification Slack
-          command: fastlane slackTest
+          command: fastlane SlackTest
 
 workflows:
   version: 2
