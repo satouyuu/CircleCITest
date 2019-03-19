@@ -26,8 +26,8 @@ jobs:
             SCAN_SCHEME: WebTests
 
       - run:
-          name: notification Slack
-          command: fastlane action slack
+          name: notification
+          command: echo "notificationTest"
 
       - store_test_results:
           path: output/scan
@@ -39,5 +39,5 @@ workflows:
   build-and-test:
     jobs:
       - build-and-test
-      - notification-Slack
+      - notification
 
