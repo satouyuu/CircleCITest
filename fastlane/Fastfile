@@ -16,11 +16,15 @@
 default_platform(:ios)
 
 platform :ios do
+
+  before_all do
+    ENV["SLACK_URL"] = 'https://hooks.slack.com/services/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'
+  end
+
   desc "Description of what the lane does"
   lane :slackTest do
     slack(
-       message: "slack Test !!",
-       slack_url: "https://hooks.slack.com/services/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"
+       message: 'slack Test !!'
    )
   end
 end
