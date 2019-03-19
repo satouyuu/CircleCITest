@@ -25,14 +25,23 @@ jobs:
             SCAN_DEVICE: iPhone 8
             SCAN_SCHEME: WebTests
 
-      - run:
-          name: notification
-          command: echo "notificationTest"
-
       - store_test_results:
           path: output/scan
       - store_artifacts:
           path: output
+
+  notification:
+    macos:
+      xcode: "10.0.0"
+    working_directory: /Users/distiller/project
+    environment:
+      FL_OUTPUT_DIR: output
+      
+    steps:
+      - checkout
+      - run:
+        name: notificationTest
+        command: echo "notificationTest"
 
 workflows:
   version: 2
