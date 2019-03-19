@@ -2,9 +2,6 @@
 version: 2
 jobs:
   hello-world:
-    macos:
-      xcode: "10.0.0"
-
     steps:
       - checkout
       - run:
