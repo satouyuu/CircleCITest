@@ -27,7 +27,7 @@ jobs:
 
       - run:
           name: notification Slack
-          command: fastlane run slack
+          command: fastlane action slack
 
       - store_test_results:
           path: output/scan
