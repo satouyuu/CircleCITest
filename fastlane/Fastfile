@@ -20,6 +20,7 @@ platform :ios do
 
   desc "Screenshot"
   lane :screenshots do
+    ENV['FASTLANE_EXPLICIT_OPEN_SIMULATOR'] = '2'
     capture_screenshots
   end
 
