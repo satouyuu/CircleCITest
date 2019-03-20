@@ -1,15 +1,6 @@
 # .circleci/config.yml
 version: 2
 jobs:
-  notification:
-    macos:
-      xcode: "10.0.0"
-
-    steps:
-      - checkout
-      - run:
-          command: fastlane slackTest
-
   runTest:
     macos:
       xcode: "10.0.0"
@@ -22,9 +13,6 @@ jobs:
 
 workflows:
   version: 2
-  notification:
-    jobs:
-      - notification
   runTest:
     jobs:
       - runTest
