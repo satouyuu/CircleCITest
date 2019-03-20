@@ -8,7 +8,8 @@ jobs:
     steps:
       - checkout
       - run:
-          command: fastlane runTest
+          command: 
+            fastlane runTest
 
   screenshot:
     macos:
@@ -17,9 +18,9 @@ jobs:
     steps:
       - checkout
       - run:
-          command: fastlane beta
-                   fastlane snapshot update
-                   fastlane screenshots
+          command: 
+            fastlane snapshot update
+            fastlane screenshots
 
 workflows:
   version: 2
