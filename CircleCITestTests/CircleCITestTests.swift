@@ -31,4 +31,10 @@ class CircleCITestTests: XCTestCase {
         }
     }
 
+    func testSample() {
+        let sample = Sample()
+        let add = sample.add(a: 2, b: 3)
+        // addメソッドの返り値が5であるかの判断
+        XCTAssertEqual(add, 5)
+    }
 }

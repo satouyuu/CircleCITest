@@ -14,6 +14,7 @@
 		F082014122407C1E00097E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F082013F22407C1E00097E5B /* LaunchScreen.storyboard */; };
 		F082014C22407C1E00097E5B /* CircleCITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F082014B22407C1E00097E5B /* CircleCITestTests.swift */; };
 		F082015722407C1E00097E5B /* CircleCITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F082015622407C1E00097E5B /* CircleCITestUITests.swift */; };
+		F09DBC9B2241DCB600E5731F /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DBC9A2241DCB600E5731F /* Sample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F082015222407C1E00097E5B /* CircleCITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleCITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F082015622407C1E00097E5B /* CircleCITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCITestUITests.swift; sourceTree = "<group>"; };
 		F082015822407C1E00097E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09DBC9A2241DCB600E5731F /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				F082013622407C1D00097E5B /* AppDelegate.swift */,
 				F082013822407C1D00097E5B /* ViewController.swift */,
+				F09DBC9A2241DCB600E5731F /* Sample.swift */,
 				F082013A22407C1D00097E5B /* Main.storyboard */,
 				F082013D22407C1E00097E5B /* Assets.xcassets */,
 				F082013F22407C1E00097E5B /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F082013922407C1D00097E5B /* ViewController.swift in Sources */,
+				F09DBC9B2241DCB600E5731F /* Sample.swift in Sources */,
 				F082013722407C1D00097E5B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
