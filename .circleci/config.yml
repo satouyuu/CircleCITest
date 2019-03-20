@@ -24,3 +24,7 @@ workflows:
   runTest:
     jobs:
       - runTest
+
+  screenshot:
+    jobs:
+      - screenshot
