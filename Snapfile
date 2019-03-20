@@ -28,3 +28,8 @@ output_directory("./screenshots")
 
 # For more information about all available options run
 # fastlane action snapshot
+
+
+skip_open_summary(
+  true
+)
