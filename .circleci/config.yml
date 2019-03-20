@@ -19,6 +19,7 @@ jobs:
       - checkout
       - run:
           command: 
+            fastlane snapshot update
             fastlane screenshots
 
 workflows:
