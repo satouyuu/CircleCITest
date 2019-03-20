@@ -17,7 +17,7 @@ jobs:
     steps:
       - checkout
       - run:
-          command: fastlane RunTest
+          command: fastlane runTest
 
 
 workflows:
