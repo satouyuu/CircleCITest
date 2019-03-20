@@ -17,7 +17,8 @@ jobs:
     steps:
       - checkout
       - run:
-          command: fastlane screenshots
+          command: fastlane snapshot update
+            fastlane screenshots
 
 workflows:
   version: 2
@@ -28,3 +29,4 @@ workflows:
   screenshot:
     jobs:
       - screenshot
+
