@@ -33,11 +33,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="qf1-Ex-lAS" firstAttribute="top" secondItem="RTS-g4-mVa" secondAttribute="bottom" constant="50" id="73j-Cc-qxP"/>
-                            <constraint firstItem="qf1-Ex-lAS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="DlD-KT-juN"/>
+                            <constraint firstItem="qf1-Ex-lAS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" priority="999" constant="50" id="DlD-KT-juN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qf1-Ex-lAS" secondAttribute="bottom" constant="200" id="Flf-tZ-GGe"/>
                             <constraint firstItem="RTS-g4-mVa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fAq-ux-Wmx"/>
-                            <constraint firstItem="RTS-g4-mVa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="n1S-ju-3Mh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qf1-Ex-lAS" secondAttribute="trailing" constant="50" id="o5B-hn-rhP"/>
+                            <constraint firstItem="RTS-g4-mVa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" priority="999" constant="100" id="n1S-ju-3Mh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qf1-Ex-lAS" secondAttribute="trailing" priority="999" constant="50" id="o5B-hn-rhP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

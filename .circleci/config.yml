@@ -10,6 +10,14 @@ jobs:
       - run:
           command: fastlane runTest
 
+  screenshot:
+    macos:
+      xcode: "10.0.0"
+
+    steps:
+      - checkout
+      - run:
+          command: fastlane snapshot
 
 workflows:
   version: 2
