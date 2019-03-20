@@ -22,9 +22,15 @@ platform :ios do
   end
 
   desc "Description of what the lane does"
-  lane :SlackTest do
+  lane :slackTest do
     slack(
        message: 'Slack Test !!'
    )
   end
+
+  desc "Run the test"
+  lane :runTest do
+    scan(scheme: "CircleCITest")
+  end
+
 end
