@@ -2,16 +2,16 @@
 
 # A list of devices you want to take the screenshots from
 devices([
-  "iPhone 8",
-  "iPhone 8 Plus",
-  "iPhone SE",
-  "iPhone X",
-  "iPad Pro (12.9-inch)",
-  "iPad Pro (9.7-inch)",
+    "iPhone 8",
+    "iPhone 8 Plus",
+    "iPhone SE",
+    "iPhone X",
+    "iPad Pro (12.9-inch)",
+    "iPad Pro (9.7-inch)",
 ])
 
 languages([
-  'ja-JP'
+    'ja-JP'
 ])
 
 # The name of the scheme which contains the UI Tests
@@ -31,5 +31,9 @@ output_directory("./screenshots")
 
 
 skip_open_summary(
-  true
+    true
+)
+
+skip_helper_version_check(
+    true
 )
