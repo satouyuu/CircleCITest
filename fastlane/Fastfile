@@ -20,7 +20,7 @@ platform :ios do
 
   desc "Screenshot"
   lane :screenshots do
-    capture_screenshots --stop_after_first_error --skip_open_summary
+    capture_screenshots
   end
 
 end
