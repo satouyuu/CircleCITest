@@ -21,7 +21,7 @@ platform :ios do
     ENV["SLACK_URL"] = 'https://hooks.slack.com/services/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'
   end
 
-  desc "Description of what the lane does"
+  desc "Send a success/error message to your Slack group"
   lane :slackTest do
     slack(
        message: 'Slack Test !!'
